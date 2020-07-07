@@ -1,0 +1,343 @@
+/* GLOBAL */
+
+.container {
+	padding: 80px 120px;
+}
+
+.top-element {
+	margin-top: 50px;
+}
+
+/* NAVIGATION */
+.navbar {
+    margin-bottom: 0;
+    background-color: #2D2D30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: #D5D5D5 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #FFFFFF !important;
+}
+
+.navbar-nav li.active a {
+    color: #FFFFFF !important;
+    background-color:#29292C !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* CAROUSEL */
+#carousel  img {
+	height: 700px;
+}
+
+.carousel-inner img {
+	width: 100%;
+	margin: auto;
+}
+
+.carousel-caption {
+	background: #333333;
+	color: #FFFFFF;
+	border-radius: 90px;
+	padding: 20px;
+	opacity: 0.9;
+}
+
+.carousel-caption h3{
+	color: yellow;
+}
+
+.carousel-caption p {
+	color: white;
+}
+
+@media (max-width: 600px) {
+	.carousel-caption {
+		display: none;
+	}
+}
+
+/* PERSONAL PICTURES */
+.black-background {
+	background: #2D2D30;
+	color: black;
+}
+
+.black-background h3 {
+	color: red;
+	margin-bottom: 40px;
+}
+
+.black-background p {
+	font-style: italic;
+}
+
+.black-background img {
+	width: 280px;
+	height: 280px;
+}
+
+/* INTEREST ICONS */
+.icon {
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.7;
+}
+
+.icon: hover {
+	border-color: #F1F1F1;
+}
+
+#info1 {
+	padding-top: 10px;
+	visibility: hidden;
+}
+
+#info2 {
+	padding-top: 10px;
+	visibility: hidden;
+}
+
+#info3 {
+	padding-top: 10px;
+	visibility: hidden;
+}
+
+/* BUTTONS */
+.infoButton {
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+}
+
+.infoButton:hover {
+	background-color: #555555;
+	color: white;
+}
+
+.cart-button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.btn-lg {
+	background-color: #555555;
+	border: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2D2D30;
+    color: #F5F5F5;
+    padding: 32px;
+    margin-top: 20px;
+}
+
+/* ASSIGNMENTS PAGE */
+.assignmentsList {
+	margin-top: 30px;
+	padding: 20px;
+	background: black;
+	text-align: center;
+	color: white;
+}
+
+.assignmentsList p {
+	margin-top: 30px;
+	padding: 5px;
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.assignmentsList a {
+	text-decoration: none;
+	padding: 5px;
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.assignmentsList li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.assignmentsList a:hover {
+	text-decoration: underline;
+}
+
+/* ITEMS PAGE */
+#cart_button
+{
+	margin-top:20px;
+	cursor:pointer;
+}
+
+#cart_button img
+{
+	width:40px;
+	height:40px;
+}
+
+#cart_button input[type="button"]
+{
+	background:none;
+	border:none;
+	background-color:red;
+	border-radius:100%;
+	height:30px;
+	width:30px;
+	margin-top:0px;
+	color:white;
+	font-size:17px;
+	cursor:pointer;
+}
+
+#mycart
+{
+	text-align: center;
+}
+
+#mycart .cart_items
+{
+	padding: 20px;
+}
+
+#mycart .cart_items img
+{
+	width:50px;
+	height:50px;
+}
+
+#mycart .cart_items p
+{
+	font-size: 17px;
+	color: green;
+}
+
+.item-picture {
+	width: 150px;
+	height: 150px;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    margin-right:-4px;
+}
+
+.shopping-banner {
+	margin-bottom: 10px;
+}
+
+.cart-picture {
+	width: 50px;
+	height: 50px;
+}
+
+.item-row {
+	border: solid black 1px;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.item-padding {
+	padding-top: 10px;
+}
+
+#shopping-cart {
+	border-radius: 6px;
+}
+
+.bonsai {
+	border: solid black 1px;
+}
+
+/* PUCHASE FORM */
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45A049;
+}
+
+.warning{
+  color: red;
+}
+
+/* FORM CONTAINER */
+.form-container {
+  background-color: #E0E2E5;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bottom-element {
+	margin-top: 40px;
+}

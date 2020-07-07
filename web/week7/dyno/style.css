@@ -1,0 +1,17 @@
+/* GENERAL */
+.navButton {
+	width: 90px;
+	height: 90px;
+}
+
+.shadow {
+	text-shadow: 1px 1px 0 #444;
+}
+
+.highlight {
+	color: orange;
+}
+
+.subheading {
+	text-transform: uppercase;
+}
